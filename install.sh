@@ -31,12 +31,13 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
+## setup hooks
 
 #################
 ## setup hooks ##
 #################
-# clone hookcontroller
-git clone git@github.com:Aachen-3A/githookcontroller.git
+# clone hookcontrollers
+git clone git@github.com:Aachen-3A/githookcontroller.git hooks
 
 # make sure all hooks can be executed
 chmod u+x $DIR/hooks/post-commit.py

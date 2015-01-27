@@ -1,6 +1,8 @@
 class dummy():
   def __init__(self):
     pass
-
-  def some_func(par):
+  ## some info
+  #
+  def some_func(self,par):
     print par
+
