@@ -1,10 +1,10 @@
 class dummy():
   def __init__(self):
-    pass
+    self.dd = 1
   ## some info
   #
   # @param self pointer
   # @param par A par
   def some_func(self,par):
     print par
-
+ 
