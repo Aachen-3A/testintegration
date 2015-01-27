@@ -4,7 +4,8 @@ var NAVTREEINDEX0 =
 "classdummycode_1_1dummy.html":[1,0,0,0],
 "classdummycode_1_1dummy.html#a674a0e2c1a4f640d13fb13be91869cec":[1,0,0,0,0],
 "classdummycode_1_1dummy.html#a7646a5afb54e46a4ea577bafcb73a4e7":[1,0,0,0,1],
-"classdummycode_1_1dummy.html#af2feb69e325549343d505d0f5afaacd0":[1,0,0,0,2],
+"classdummycode_1_1dummy.html#ade8c2a23728fea407400de565af9d924":[1,0,0,0,2],
+"classdummycode_1_1dummy.html#af2feb69e325549343d505d0f5afaacd0":[1,0,0,0,3],
 "classes.html":[1,1],
 "dummycode_8py.html":[2,0,0],
 "dummycode_8py_source.html":[2,0,0],
@@ -13,8 +14,8 @@ var NAVTREEINDEX0 =
 "functions_func.html":[1,2,1],
 "functions_vars.html":[1,2,2],
 "index.html":[],
-"namespacedummycode.html":[1,0,0],
 "namespacedummycode.html":[0,0,0],
+"namespacedummycode.html":[1,0,0],
 "namespaces.html":[0,0],
 "pages.html":[]
 };
