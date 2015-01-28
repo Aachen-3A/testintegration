@@ -3,6 +3,7 @@ class dummy():
     self.dd = 1
     self.aa = 2
     self.bb = 2
+    self.xx = 2
   ## some info
   #
   # @param self pointer
