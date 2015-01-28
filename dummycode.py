@@ -15,6 +15,7 @@ class dummy():
     self.tt = 2
     self.tt = 2
     self.tt = 2
+    self.tt = 2
 
   ## some info
   #
