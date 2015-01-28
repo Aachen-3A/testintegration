@@ -12,7 +12,6 @@ var classdummycode_1_1dummy =
     [ "pp", "classdummycode_1_1dummy.html#a4ded8e4fa38d817b96c7b21a869a16ae", null ],
     [ "taat", "classdummycode_1_1dummy.html#a638ed861d153ec60095bed0527eb89fc", null ],
     [ "tkkt", "classdummycode_1_1dummy.html#ac97503870ca57fa0d663fcc8177e9f75", null ],
-    [ "tokt", "classdummycode_1_1dummy.html#a82e1bf8814c8d2fb5a01810922ce4d31", null ],
     [ "tt", "classdummycode_1_1dummy.html#ac1a6206c9bd102d051018258c3b54de9", null ],
     [ "ww", "classdummycode_1_1dummy.html#a65b1604eb43ffa41eb49a02655397fb7", null ],
     [ "xx", "classdummycode_1_1dummy.html#af1ae41fb24a1c0a52ae60bd1f2db9f5f", null ],
