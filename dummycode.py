@@ -10,6 +10,7 @@ class dummy():
     self.ww = 2
     self.oo = 2
     self.tt = 2
+    self.kj = 2
   ## some info
   #
   # @param self pointer
