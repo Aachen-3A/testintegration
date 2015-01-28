@@ -3,6 +3,7 @@ var classdummycode_1_1dummy =
     [ "__init__", "classdummycode_1_1dummy.html#a674a0e2c1a4f640d13fb13be91869cec", null ],
     [ "some_func", "classdummycode_1_1dummy.html#a7646a5afb54e46a4ea577bafcb73a4e7", null ],
     [ "some_func2", "classdummycode_1_1dummy.html#aee9cd7f746f99e79544f048233cf2a1e", null ],
+    [ "some_func3", "classdummycode_1_1dummy.html#a0ba4f337dcebcb471c9e7947aace7e4e", null ],
     [ "aa", "classdummycode_1_1dummy.html#ade8c2a23728fea407400de565af9d924", null ],
     [ "bb", "classdummycode_1_1dummy.html#a8fc4a473d7dc65b38abc8ca2bbf56d0c", null ],
     [ "dd", "classdummycode_1_1dummy.html#af2feb69e325549343d505d0f5afaacd0", null ],
