@@ -9,20 +9,10 @@ class dummy():
     self.pp = 2
     self.ww = 2
     self.oo = 2
-    self.tt = 2
     self.zz = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
-    self.tt = 2
     self.taat = 2
     self.tkkt = 2
     self.kssdd = 2
-    self.tt = 2
   
 
   ## some info
