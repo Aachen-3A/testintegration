@@ -22,6 +22,9 @@ class dummy():
     self.taat = 2
     self.tkkt = 2
     self.tokt = 2
+    self.tkkt = 2
+    self.tkkt = 2
+    self.tkkt = 2
     self.kssdd = 2
     self.tt = 2
   
