@@ -8,6 +8,7 @@ class dummy():
     self.ll = 2
     self.pp = 2
     self.ww = 2
+    self.oo = 2
   ## some info
   #
   # @param self pointer
