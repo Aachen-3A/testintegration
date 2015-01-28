@@ -4,6 +4,7 @@ class dummy():
     self.aa = 2
     self.bb = 2
     self.xx = 2
+    self.yy = 2
   ## some info
   #
   # @param self pointer
