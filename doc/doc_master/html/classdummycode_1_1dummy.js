@@ -10,6 +10,7 @@ var classdummycode_1_1dummy =
     [ "ll", "classdummycode_1_1dummy.html#aff4159330a4c573597b401b5503818d7", null ],
     [ "oo", "classdummycode_1_1dummy.html#a49635a45286e102fb960d0bc4f4c3621", null ],
     [ "pp", "classdummycode_1_1dummy.html#a4ded8e4fa38d817b96c7b21a869a16ae", null ],
+    [ "qq", "classdummycode_1_1dummy.html#ab9bf069831fc294a2b621de6f769b9fd", null ],
     [ "taat", "classdummycode_1_1dummy.html#a638ed861d153ec60095bed0527eb89fc", null ],
     [ "tkkt", "classdummycode_1_1dummy.html#ac97503870ca57fa0d663fcc8177e9f75", null ],
     [ "ww", "classdummycode_1_1dummy.html#a65b1604eb43ffa41eb49a02655397fb7", null ],
