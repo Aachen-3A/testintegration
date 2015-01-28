@@ -9,6 +9,7 @@ class dummy():
     self.pp = 2
     self.ww = 2
     self.oo = 2
+    self.zutz = 2
     self.qq = 2
     self.zt = 2
     self.zz = 2

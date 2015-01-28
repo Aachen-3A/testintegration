@@ -17,5 +17,6 @@ var classdummycode_1_1dummy =
     [ "xx", "classdummycode_1_1dummy.html#af1ae41fb24a1c0a52ae60bd1f2db9f5f", null ],
     [ "yy", "classdummycode_1_1dummy.html#ad0f056c4695b2525f883dbe1004fa7ba", null ],
     [ "zt", "classdummycode_1_1dummy.html#af78a012efe5cf775029302a592858693", null ],
+    [ "zutz", "classdummycode_1_1dummy.html#a819ddc766a3062fb0060ded894574ba1", null ],
     [ "zz", "classdummycode_1_1dummy.html#af5c829ccdb5a89e8ba0f2cf476cb2aa0", null ]
 ];
