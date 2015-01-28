@@ -39,4 +39,10 @@ class dummy():
   # @param par A par
   def some_func3(self,par):
     print par
-
+  
+  ##some info
+  #
+  # @param self pointer
+  # @param par A par
+  def some_func3(self,par):
+    print par
