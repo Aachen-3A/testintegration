@@ -10,6 +10,7 @@ class dummy():
     self.ww = 2
     self.oo = 2
     self.qq = 2
+    self.zt = 2
     self.zz = 2
     self.taat = 2
     self.tkkt = 2

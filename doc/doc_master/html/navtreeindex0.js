@@ -17,7 +17,8 @@ var NAVTREEINDEX0 =
 "classdummycode_1_1dummy.html#ade8c2a23728fea407400de565af9d924":[1,0,0,0,3],
 "classdummycode_1_1dummy.html#af1ae41fb24a1c0a52ae60bd1f2db9f5f":[1,0,0,0,14],
 "classdummycode_1_1dummy.html#af2feb69e325549343d505d0f5afaacd0":[1,0,0,0,5],
-"classdummycode_1_1dummy.html#af5c829ccdb5a89e8ba0f2cf476cb2aa0":[1,0,0,0,16],
+"classdummycode_1_1dummy.html#af5c829ccdb5a89e8ba0f2cf476cb2aa0":[1,0,0,0,17],
+"classdummycode_1_1dummy.html#af78a012efe5cf775029302a592858693":[1,0,0,0,16],
 "classdummycode_1_1dummy.html#aff4159330a4c573597b401b5503818d7":[1,0,0,0,7],
 "classes.html":[1,1],
 "dummycode_8py.html":[2,0,0],
@@ -27,8 +28,8 @@ var NAVTREEINDEX0 =
 "functions_func.html":[1,2,1],
 "functions_vars.html":[1,2,2],
 "index.html":[],
-"namespacedummycode.html":[1,0,0],
 "namespacedummycode.html":[0,0,0],
+"namespacedummycode.html":[1,0,0],
 "namespaces.html":[0,0],
 "pages.html":[]
 };
