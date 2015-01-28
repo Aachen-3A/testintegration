@@ -12,6 +12,8 @@ class dummy():
     self.tt = 2
     self.zz = 2
     self.tt = 2
+    self.tt = 2
+
   ## some info
   #
   # @param self pointer
