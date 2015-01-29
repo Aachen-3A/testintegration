@@ -1,0 +1,18 @@
+.TH "md_hooks_README" 3 "Thu Jan 29 2015" "testintegration" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_hooks_README \- githookcontroller 
+This repository contains the githookcontroller, a general tool to construct git hooks in TAPAS
+.PP
+The project is work in progress and contains only few features so far\&.
+.PP
+Currently implemented features:
+.IP "\(bu" 2
+Parse output from pre-commit hooks
+.IP "\(bu" 2
+Create branch specific doxygen documentation on every commit (see hooks/pre-commit) Doxygen documentation without warnig can be enfoced based on repo root and branch name
+.IP "\(bu" 2
+Add doxygen documentation for given branches to gh-pages branch (see hooks/pre-push) 
+.PP
+
