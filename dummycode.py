@@ -9,8 +9,12 @@ class dummy():
     self.pp = 2
     self.ww = 2
     self.oo = 2
-    self.tt = 2
+    self.zutz = 2
+    self.zdctz = 2
+    self.qq = 2
+    self.zt = 2
     self.zz = 2
+<<<<<<< HEAD
     self.ddjal = 2
     self.tt = 2
     self.tt = 2
@@ -20,12 +24,13 @@ class dummy():
     self.tt = 2
     self.tt = 2
     self.tt = 2
+=======
+>>>>>>> master
     self.taat = 2
     self.tkkt = 2
     self.zzz = 2
     self.kssdd = 2
     self.kssdd = 2
-    self.tt = 2
   
 
   ## some info
