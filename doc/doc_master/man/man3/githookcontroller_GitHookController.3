@@ -126,7 +126,7 @@ Definition at line 53 of file githookcontroller\&.py\&.
 .PP
 Get all doxygen warnings\&. 
 .PP
-Definition at line 436 of file githookcontroller\&.py\&.
+Definition at line 438 of file githookcontroller\&.py\&.
 .PP
 Referenced by githookcontroller\&.GitHookController\&.update_doxygen()\&.
 .SS "def githookcontroller\&.GitHookController\&.check_cpplint (self, filepath)"
@@ -143,7 +143,7 @@ functions for code style enforcment ### Check if file fullfills cpplint check
 .PP
 
 .PP
-Definition at line 243 of file githookcontroller\&.py\&.
+Definition at line 246 of file githookcontroller\&.py\&.
 .SS "def githookcontroller\&.GitHookController\&.checkout_branch (self, branchname, forced = \fCFalse\fP)"
 
 .PP
@@ -160,7 +160,7 @@ Checkout another branch\&.
 .PP
 
 .PP
-Definition at line 158 of file githookcontroller\&.py\&.
+Definition at line 161 of file githookcontroller\&.py\&.
 .PP
 Referenced by githookcontroller\&.GitHookController\&.publish_doxygen()\&.
 .SS "def githookcontroller\&.GitHookController\&.current_branch (self)"
@@ -168,7 +168,7 @@ Referenced by githookcontroller\&.GitHookController\&.publish_doxygen()\&.
 .PP
 Get currently chosen branch\&. 
 .PP
-Definition at line 135 of file githookcontroller\&.py\&.
+Definition at line 138 of file githookcontroller\&.py\&.
 .PP
 Referenced by githookcontroller\&.GitHookController\&.prepare_doxygen_cfg(), githookcontroller\&.GitHookController\&.publish_doxygen(), and githookcontroller\&.GitHookController\&.update_doxygen()\&.
 .SS "def githookcontroller\&.GitHookController\&.parse_pre_commit (self)"
@@ -183,7 +183,7 @@ Get list of chagend files in commit\&.
 .PP
 
 .PP
-Definition at line 179 of file githookcontroller\&.py\&.
+Definition at line 182 of file githookcontroller\&.py\&.
 .SS "def githookcontroller\&.GitHookController\&.parse_pre_push (self)"
 
 .PP
@@ -201,7 +201,7 @@ namedtupe of type Push fields: ['commits', 'remote_name', 'remote_url','current_
 .PP
 
 .PP
-Definition at line 197 of file githookcontroller\&.py\&.
+Definition at line 200 of file githookcontroller\&.py\&.
 .PP
 References githookcontroller\&.Commit, and githookcontroller\&.Push\&.
 .SS "def githookcontroller\&.GitHookController\&.post_commit (self)"
@@ -216,7 +216,7 @@ functions for hooks ### Parse message from post commit
 .PP
 
 .PP
-Definition at line 173 of file githookcontroller\&.py\&.
+Definition at line 176 of file githookcontroller\&.py\&.
 .SS "def githookcontroller\&.GitHookController\&.prepare_doxygen_cfg (self)"
 
 .PP
@@ -238,7 +238,7 @@ footer_template\&.html available Tokens: +++optionsline+++ a fixed url path ++br
 .PP
 
 .PP
-Definition at line 268 of file githookcontroller\&.py\&.
+Definition at line 271 of file githookcontroller\&.py\&.
 .PP
 References githookcontroller\&.GitHookController\&.current_branch(), githookcontroller\&.GitHookController\&.organisation, githookcontroller\&.GitHookController\&.remote_branches(), githookcontroller\&.GitHookController\&.remote_root_name(), githookcontroller\&.GitHookController\&.remote_url(), and githookcontroller\&.GitHookController\&.vetobranches\&.
 .SS "def githookcontroller\&.GitHookController\&.publish_doxygen (self, branchnames)"
@@ -246,7 +246,7 @@ References githookcontroller\&.GitHookController\&.current_branch(), githookcont
 .PP
 Checkout all doygen folders in gh-pages branch and commit changes\&. 
 .PP
-Definition at line 335 of file githookcontroller\&.py\&.
+Definition at line 337 of file githookcontroller\&.py\&.
 .PP
 References githookcontroller\&.GitHookController\&.checkout_branch(), and githookcontroller\&.GitHookController\&.current_branch()\&.
 .SS "def githookcontroller\&.GitHookController\&.remote_branches (self)"
@@ -261,7 +261,7 @@ A list of strings containing all remot branch names
 .PP
 
 .PP
-Definition at line 145 of file githookcontroller\&.py\&.
+Definition at line 148 of file githookcontroller\&.py\&.
 .PP
 Referenced by githookcontroller\&.GitHookController\&.prepare_doxygen_cfg()\&.
 .SS "def githookcontroller\&.GitHookController\&.remote_root_name (self)"
@@ -323,7 +323,7 @@ Update the doxygen documentation for this folder repo\&. Based on example in: ht
 .PP
 
 .PP
-Definition at line 402 of file githookcontroller\&.py\&.
+Definition at line 404 of file githookcontroller\&.py\&.
 .PP
 References githookcontroller\&.GitHookController\&._get_doxygen_warnings(), githookcontroller\&.GitHookController\&.current_branch(), githookcontroller\&.GitHookController\&.doxy_enforce_repos, githookcontroller\&.GitHookController\&.root_name(), and githookcontroller\&.GitHookController\&.vetobranches\&.
 .SH "Member Data Documentation"
