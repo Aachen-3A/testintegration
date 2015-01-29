@@ -16,6 +16,7 @@ var classdummycode_1_1dummy =
     [ "ww", "classdummycode_1_1dummy.html#a65b1604eb43ffa41eb49a02655397fb7", null ],
     [ "xx", "classdummycode_1_1dummy.html#af1ae41fb24a1c0a52ae60bd1f2db9f5f", null ],
     [ "yy", "classdummycode_1_1dummy.html#ad0f056c4695b2525f883dbe1004fa7ba", null ],
+    [ "zdctz", "classdummycode_1_1dummy.html#a62fc3eeffe9af9718ee30415bacf39fb", null ],
     [ "zt", "classdummycode_1_1dummy.html#af78a012efe5cf775029302a592858693", null ],
     [ "zutz", "classdummycode_1_1dummy.html#a819ddc766a3062fb0060ded894574ba1", null ],
     [ "zz", "classdummycode_1_1dummy.html#af5c829ccdb5a89e8ba0f2cf476cb2aa0", null ]
