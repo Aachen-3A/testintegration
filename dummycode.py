@@ -11,6 +11,7 @@ class dummy():
     self.oo = 2
     self.tt = 2
     self.zz = 2
+    self.ddjal = 2
     self.tt = 2
     self.tt = 2
     self.tt = 2
