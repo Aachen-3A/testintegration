@@ -1,7 +1,5 @@
 ##
-## install.sh
-## 
-## Copyright 2015 Tobias Pook <pook <at> physik.rwth-aachen.de>
+## setup.sh
 ## 
 ## This script sets up hooks and performs additional setup tasks for
 ## a repository in the TAPAS framework
@@ -36,17 +34,35 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 #################
 ## setup hooks ##
 #################
-# clone hookcontrollers
-git clone git@github.com:Aachen-3A/githookcontroller.git hooks
+if [ -d "./hooks/" ]; then
+  # Control will enter here if $DIRECTORY exists.
+  echo "dirctory hooks exists"
+  if [! -f "./hooks/githookcontroller.py" ]; then
+        $pwd = `pwd`
+        cd ".$pwd/hooks/"
+        git pull
+        cd $pwd
+        setlinks=0
+    else
+        echo "githookcontroller not in hooks"
+        setlinks=1
+    fi
+else
+    # clone hookcontrollers
+    git clone git@github.com:Aachen-3A/githookcontroller.git hooks
+    setlinks=0
+fi
+if [ $setlinks -eq 0 ];then    
+    # make sure all hooks can be executed
+    chmod u+x $DIR/hooks/post-commit.py
+    chmod u+x $DIR/hooks/pre-commit.py
+    chmod u+x $DIR/hooks/pre-push.py
+    
+    # create symlinks for hooks
+    ln -fs $DIR/hooks/githookcontroller.py $DIR/.git/hooks/githookcontroller.py
+    
+    ln -fs $DIR/hooks/pre-commit.py $DIR/.git/hooks/pre-commit
+    ln -fs $DIR/hooks/post-commit.py $DIR/.git/hooks/post-commit
+    ln -fs $DIR/hooks/pre-push.py $DIR/.git/hooks/pre-push
+fi    
 
-# make sure all hooks can be executed
-chmod u+x $DIR/hooks/post-commit.py
-chmod u+x $DIR/hooks/pre-commit.py
-chmod u+x $DIR/hooks/pre-push.py
-
-# create symlinks for hooks
-ln -fs $DIR/hooks/githookcontroller.py $DIR/.git/hooks/githookcontroller.py
-
-ln -fs $DIR/hooks/pre-commit.py $DIR/.git/hooks/pre-commit
-ln -fs $DIR/hooks/post-commit.py $DIR/.git/hooks/post-commit
-ln -fs $DIR/hooks/pre-push.py $DIR/.git/hooks/pre-push
