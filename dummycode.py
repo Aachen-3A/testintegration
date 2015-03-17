@@ -5,6 +5,7 @@ class dummy():
     self.bb = 2
     self.xx = 2
     self.ww = 2
+    self.tz = 3
     self.oo = 2
     self.zutz = 2
     self.zdctz = 2
