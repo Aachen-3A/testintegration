@@ -37,7 +37,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 if [ -d "./hooks/" ]; then
   # Control will enter here if $DIRECTORY exists.
   echo "dirctory hooks exists"
-  if [! -f "./hooks/githookcontroller.py" ]; then
+  if [ ! -f "./hooks/githookcontroller.py" ]; then
         $pwd = `pwd`
         cd ".$pwd/hooks/"
         git pull
