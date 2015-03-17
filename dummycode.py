@@ -4,7 +4,6 @@ class dummy():
     self.aa = 2
     self.bb = 2
     self.xx = 2
-    self.ll = 2
     self.pp = 2
     self.ww = 2
     self.oo = 2
