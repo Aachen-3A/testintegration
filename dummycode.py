@@ -5,7 +5,6 @@ class dummy():
     self.bb = 2
     self.xx = 2
     self.ww = 2
-    self.tz = 3
     self.oo = 2
     self.zutz = 2
     self.zdctz = 2
@@ -14,9 +13,7 @@ class dummy():
     self.zz = 2
     self.taat = 2
     self.tkkt = 2
-    self.kssdd = 2
-  
-
+    self.takkt = 2
   ## some info
   #
   # @param self pointer

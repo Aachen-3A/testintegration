@@ -45,7 +45,7 @@ if [ -d "./hooks/" ]; then
         setlinks=0
     else
         echo "githookcontroller not in hooks"
-        setlinks=1
+        setlinks=0
     fi
 else
     # clone hookcontrollers
@@ -60,6 +60,12 @@ if [ $setlinks -eq 0 ];then
     
     # create symlinks for hooks
     ln -fs $DIR/hooks/githookcontroller.py $DIR/.git/hooks/githookcontroller.py
+    # create symlinks for all config files
+    for configfile in `find $DIR/hooks -name '*.cfg' -not -type d -exec basename {} \;`
+      do
+        ln -fs $DIR/hooks/${configfile} $DIR/.git/hooks/${configfile}
+      done
+    #~ find $DIR/hooks -name '*.cfg' -not -type d -exec ln -fs '{}' $DIR/.git/hooks/'{}' \;
     
     ln -fs $DIR/hooks/pre-commit.py $DIR/.git/hooks/pre-commit
     ln -fs $DIR/hooks/post-commit.py $DIR/.git/hooks/post-commit
